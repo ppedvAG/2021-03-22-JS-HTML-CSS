@@ -2,12 +2,12 @@
 
 Ein Kurs von PPEDV :rocket:
 
-Datum: xx.xx.2021
+Datum: 22.03.2021
 
-Ort: VC / ...
+Ort: VC
 
-Format: Vollzeit / Teilzeit
+Format: Vollzeit
 
-[Agenda von diesem Kurs auf ppedv.de](füge hier die globale URL ein)
+[Agenda von diesem Kurs auf ppedv.de](https://ppedv.de/schulung/kurse/JavaScript-HTML-Programmierung-Client-CSS-Syntax-Event-Cookie.aspx)
 
 Ablauf vom Kurs siehe [hier](./TRAINER/readme.md).
