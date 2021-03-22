@@ -1,0 +1,25 @@
+td, th {
+    border: thin solid;
+    width: 220px;
+    padding: .5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+th {
+    text-align:left;
+}
+table {
+    border-collapse: collapse;
+}
+thead {
+    background-color: darkgray;
+}
+.grey {
+    background-color: rgb(223, 223, 223);
+    font-weight: bold;
+}
+.right {
+    text-align: right;
+}
+body {
+    font-size: 1.5em
+}
