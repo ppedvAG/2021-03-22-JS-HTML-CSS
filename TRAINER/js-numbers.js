@@ -5,9 +5,16 @@ var differenz = alterPerson2 - alterPerson1;
 
 console.log(differenz);
 
-// Übung: Alter abfragen, Unterschied berechnen und in die Konsole ausgeben
-var person1age = age1.value;
-console.log(age1);
-console.log(person1age);
+// Übung: 
+// 1. Alter von 2 Personen abfragen
+// 2. Unterschied berechnen und 
+// 3. in die Konsole ausgeben
+
+function handleClick() {
+    var person1age = age1.value;
+    console.log(age1);
+    console.log(person1age);
+}
+
 
 
