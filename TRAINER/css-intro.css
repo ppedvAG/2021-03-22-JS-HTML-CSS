@@ -1,0 +1,19 @@
+h1 {
+    color: rgb(234, 100, 200);
+}
+p {
+    border-width: thin; 
+    border-color: rosybrown;
+    border-style: solid;
+}
+/* mit # gibt man IDs an*/
+#bg-silver {
+    background-color: silver;
+}
+input {
+    border-width: thick; 
+}
+/* mit Punkt gibt Klassen an */
+.kursiv {
+    font-style: italic;
+}
