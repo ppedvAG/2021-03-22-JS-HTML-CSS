@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box</title>
+    <style>
+        p, span {
+            border-width: 2px;
+            border-style: solid;
+            padding-top: 5px;
+            width: 40%;
+            height: 30px;
+            text-align:center;
+            background-color: aquamarine;
+        }
+        p {
+            display: block;
+            /* display: inline; */
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        span {
+            /* display: inline; */
+            /* display: block; */
+            display: inline-block;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>CSS Box</h1>
+    <pre>
+        block Elemente
+            Breite: breit wie möglich
+            Breite & Höhe Angaben: werden angewendet
+        inline Elemente
+            Breite: breit wie nötig
+            Breite & Höhe Angaben: werden ignoriert
+        inline-block Elemente:
+            Breite: breit wie nötig
+            Breite & Höhe Angaben: werden angewendet
+    </pre>
+    <p>paragraph1</p>
+    <p>paragraph2</p>
+    <p>paragraph3</p>
+    <span>span1</span>
+    <span>span2</span>
+    <span>span3</span>
+    
+</body>
+</html>
