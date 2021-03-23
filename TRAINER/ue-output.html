@@ -9,15 +9,16 @@
 <body>
     <h1>Ü AUSGABE</h1>
     <label for="roomprice">Wählen Sie gewünschten Zimmerpreis aus: </label>
-    <input type="range" name="" id="roomprice">
-    <button>gebe die Auswahl aus</button>
-    <output id="outp"></output>
+    <input id="roomprice" type="range" name="" >
+    <button onclick="handleClick()">gebe die Auswahl aus</button>
+    <output id="outp">text in output</output>
 
     <script>
-
-outp.value = 'ausgabe'
-/* window.prompt('Eingabe') */
-
+        function handleClick() {
+            var inpValue = roomprice.value;
+            console.log(inpValue);
+            outp.value = inpValue;
+        }
     </script>
 </body>
 </html>
