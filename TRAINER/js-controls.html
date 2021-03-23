@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <output id="ausgabe"></output>
+    <output id="ausgabe">Ergebnis: </output>
     <script>
         // Aufgabe 1
         // Gebe in die Konsole dreimal das heutige Datum mit Hilfe einer Schleife
@@ -15,6 +15,13 @@
         // Aufgabe 2
         // let elements = ['Kupfer', 'Eisen', 'Aluminium', 'Platinum']
         // Iterriere das Array und gebe die Länge von den Wörtern in einem Output aus
+        let elements = ['Kupfer', 'Eisen', 'Aluminium', 'Platinum']
+        for (const arrayElement of elements) {
+            let wordLength = arrayElement.length;
+            let oldContent = document.getElementById('ausgabe').value
+            let newContent = oldContent + ' ' + wordLength
+            document.getElementById('ausgabe').value = newContent            
+        }
     </script>
 </body>
 </html>
