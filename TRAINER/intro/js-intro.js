@@ -16,7 +16,7 @@ Kommentare
 let variable3 = 345;
 let variable4 = 'text';
 
-// Aufruf einer Variable
+// Aufruf einer Variable - mit ihrem Namen
 console.log(variable3) // 345
 console.log(variable4) // text
 console.log(variable3 + variable4) // 345text
@@ -29,13 +29,24 @@ console.log(variable3 + variable4) // 345text
 function sagHallo() {
     console.log('hallo aus fkt sagHallo')
 }
-
-// Aufruf einer Funktion:
+function aufwiedersehen() {
+    console.log('aufwiedersehen aus function aufwiedersehen')
+}
+// Aufruf einer Funktion - mit ihrem Namen:
 sagHallo();
+aufwiedersehen();
+
 
 // =====================================
-// ARRAYS
+// ARRAYS - Sammlungen von Daten
+// Definition:
+// Semantische Syntax:
+// SchlüsselEinerVariable ArrayName = [element1, element2, element3]
+let blumen = ['Rose', 'Nelke', 'Tulpe'];
 
+// Aufruf von einem Array -mit seinem Namen;
+console.log(blumen);
+alert(blumen);
 
 // =====================================
 // OBJEKTE
