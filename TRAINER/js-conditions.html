@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Bedingungen</title>
+</head>
+
+<body>
+    <h1>JS Bedingungen</h1>
+    <pre>Szenario: verhindern, dass der Benutzer bei der Altersangabe:
+        - positive Zahlen
+        - keine Null
+        - keine Zahlen höher als 120
+        - kein Zahlen in Expontialschreibweise (5e5 = 50000)
+    </pre>
+
+
+
+
+
+    <label>Geben Sie ihr Alter ein:
+        <input type="number" id="inputAge">
+    </label>
+    <button onclick="handleClick()">OK</button>
+
+
+
+
+
+
+    <br>
+    <a href="https://www.w3schools.com/tags/ref_eventattributes.asp">Liste von Events auf w3schools</a>
+    <script>
+        function handleClick() {
+            if (inputAge.value > 120) {
+                console.log('eingabe muss kleiner als 120 sein')
+            }
+        }
+
+
+
+    </script>
+</body>
+
+</html>
