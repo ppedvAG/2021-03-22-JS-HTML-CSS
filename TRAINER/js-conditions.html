@@ -35,13 +35,15 @@
     <a href="https://www.w3schools.com/tags/ref_eventattributes.asp">Liste von Events auf w3schools</a>
     <script>
         function handleClick() {
-            if (inputAge.value > 120) {
+            if (inputAge.value.search('e') != -1) {
+                console.log('Kein e darf in der Eingabe vorkommen');
+            } else if (inputAge.value > 120) {
                 console.log('eingabe muss kleiner als 120 sein')
+                console.log(inputAge.value.search('e'));
+            } else  {
+                console.log('die Eingabe ist angenommen');
             }
         }
-
-
-
     </script>
 </body>
 

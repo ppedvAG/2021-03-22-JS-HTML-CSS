@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS return</title>
+</head>
+<body>
+    <h1>JS return</h1>
+    <output id="outp"></output>
+
+    <script>
+        function addiere1() {
+            let zahl1 = 3
+            let zahl2 = 4
+            console.log(zahl1 + zahl2);
+            outp.value = zahl1 + zahl2;
+        }
+        addiere1(); // 7, bringt aber kein Nutzen
+
+        // in den runden Klammern werden Platzhalter (Variablen) angelegt, 
+        // die später bei Aufruf der Funktion konkrete Zahlen abfangen
+        function addiere2(summand1, summand2) {
+            console.log(summand1 + summand2);
+            outp.value = summand1 + summand2;
+        }
+        addiere2(3, 4);
+
+        function addiere3(num1, num2){
+            console.log(num1 + num2);
+            // outp.value = num1 + num2;
+            return num1 + num2;
+        }
+        let summe = addiere3(3, 4);
+        console.log("summe: ", summe);
+
+        if (addiere3(3, 4) == 7) {
+            outp.value = 'wir haben Glück'
+        }
+
+        let zahlAlsString = '456';
+        console.log(zahlAlsString);
+        console.log(typeof zahlAlsString);
+        let zahlAlsNumber = Number(zahlAlsString)
+        console.log(zahlAlsNumber);
+        console.log(typeof zahlAlsNumber);
+
+    </script>
+</body>
+</html>
