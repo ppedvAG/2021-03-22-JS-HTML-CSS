@@ -43,9 +43,11 @@ aufwiedersehen();
 // Semantische Syntax:
 // SchlüsselWortEinerVariable ArrayName = [element1, element2, element3]
 let blumen = ['Rose', 'Nelke', 'Tulpe'];
+let farben = ['schwarz', 'gelb'];
 
 // Aufruf von einem Array - mit seinem Namen;
 console.log(blumen);
+console.log(blumen[0]);
 // alert(blumen);
 
 // =====================================
@@ -57,8 +59,24 @@ let auto = {
     baujahr: 2010, 
     km: 2000, 
     farbe: 'grau', 
-    model: 'audi Q5'
+    model: 'audi Q5',
+    ändereFarbe: function(neueFarbe) {
+        auto.farbe = neueFarbe // todo #1
+    }
 }
 
-// Aufruf von einem Array - mit seinem Namen;
+let tisch = {
+    farbe: 'blau',
+    höhe: '60 cm',
+    einheit: 'cm'
+}
+
+// Aufruf von einem Objekt - mit seinem Namen;
 console.log(auto)
+console.log(auto.model)
+auto.ändereFarbe('blau')
+auto.ändereFarbe(farben[0])
+console.log(auto.farbe) // schwarz
+ 
+console.log(tisch)
+console.log(tisch.höhe)
