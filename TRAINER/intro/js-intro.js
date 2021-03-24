@@ -41,12 +41,24 @@ aufwiedersehen();
 // ARRAYS - Sammlungen von Daten
 // Definition:
 // Semantische Syntax:
-// SchlüsselEinerVariable ArrayName = [element1, element2, element3]
+// SchlüsselWortEinerVariable ArrayName = [element1, element2, element3]
 let blumen = ['Rose', 'Nelke', 'Tulpe'];
 
-// Aufruf von einem Array -mit seinem Namen;
+// Aufruf von einem Array - mit seinem Namen;
 console.log(blumen);
-alert(blumen);
+// alert(blumen);
 
 // =====================================
-// OBJEKTE
+// OBJEKTE - Sammlungen von 'Key : Value' / 'Property : Value' Paare
+// Definition:
+// Semantische Syntax:
+// SchlüsselWortEinerVariable ObjektName = { prop1: Wert, prop2: Wert }
+let auto = {
+    baujahr: 2010, 
+    km: 2000, 
+    farbe: 'grau', 
+    model: 'audi Q5'
+}
+
+// Aufruf von einem Array - mit seinem Namen;
+console.log(auto)
